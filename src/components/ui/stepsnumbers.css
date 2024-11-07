@@ -1,0 +1,36 @@
+.steps_numbers {
+  position: absolute;
+  top: 5%;
+  right: 2%;
+  color: var(--primary-blue);
+}
+
+.steps_numbers span:nth-child(1) {
+  font-size: 1.6rem;
+  border-right: 1px solid var(--primary-blue);
+  padding-right: 3px;
+}
+
+.steps_numbers span:nth-child(2) {
+  font-size: 1rem;
+  padding-left: 3px;
+  position: relative;
+  bottom: 2px;
+}
+
+.divider {
+  width: 1px;
+  background-color: var(--primary-blue);
+}
+
+@media (min-width: 1280px) {
+
+  .steps_numbers span:nth-child(1) {
+    font-size: 2rem;
+  }
+
+  .steps_numbers span:nth-child(2) {
+    font-size: 1.2rem;
+  }
+  
+}
