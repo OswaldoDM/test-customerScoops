@@ -1,6 +1,7 @@
 # React + TypeScript + Vite
 
 Git clone https://github.com/OswaldoDM/test-customerScoops.git -> Clonar repositorio
+                                              
 npm install -> Instalar Dependencias
 
 # Test - customerScoops
