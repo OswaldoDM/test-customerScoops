@@ -41,7 +41,7 @@
     }
   
     &:focus {
-      outline: none;
+      outline: none;      
     }
   }
   
@@ -59,7 +59,7 @@
     border-radius: 30px;
     transition: 0.2s;
   
-    &:hover{
+    &:hover {      
       background-color: var(--primary-blue);
       color: var(--white);
     }
@@ -172,7 +172,7 @@
   @media (min-width: 1280px) {
     .container {
       max-width: 100%;
-      min-height: 100vh;    
+      /* min-height: 100vh;     */
       padding: 0;
       margin: 0;
       display: flex;    
@@ -190,7 +190,7 @@
     .desktop_img_wrapper {    
       display: block;
       width: 50%;    
-      max-height: 100vh;    
+      max-height: 99.4vh;    
     }
     
     .desktop_img_wrapper img {

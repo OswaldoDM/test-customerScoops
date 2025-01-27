@@ -35,7 +35,7 @@ function App() {
   const resetSteps = () => {
     setStep(1);
     onResetForm();
-  };      
+  };  
 
   return (
     <>
